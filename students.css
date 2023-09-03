@@ -1,54 +1,58 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Bungee+Outline&family=Cinzel&family=Courgette&family=Josefin+Sans:wght@500&family=Londrina+Outline&family=Monoton&family=Poppins:wght@400;600&family=Prompt:ital@1&family=Tenor+Sans&family=Zen+Tokyo+Zoo&display=swap');
-
-
-
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins';
+#header{
+    margin-top: 25px;
+    text-align: center;
 }
 
-
-
-/* HOME SECTION  */
-
-#home .box{
-    margin-top:40px ;
+i{
+    color: rgb(0, 133, 255);
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-#home .p-3{
-    background-color: rgb(230, 230, 230);
-    border-radius: 12px;
-    box-shadow: 0px 4px 0px 0px rgb(0, 60, 255);
+.icons{
+    margin-top: 15px;
+    padding: 5px;
+    width: 70px;
+    height: 65px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: antiquewhite;
 }
-#home .p-3:hover{
-    background-color: rgb(240, 240, 240);
 
-}
-
-#home button{
-    background-color: rgba(0, 60, 255, 0.747);
-    border: none;
+#all-logo{
+   text-align: center;
+    background-color: aqua;
     width: 100%;
-    border-radius: 2px;
+    height: 170px;
 }
 
-/* top sections */
-
- header .container{
-    background-color: rgb(240, 240, 240);
-    padding: 40px;
-    border-radius: 0px 0px 40px 40px;
-    border-bottom: 5px solid rgba(0, 60, 255, 0.747);
- }
-
- header #reg,#branch,#stream,#yr,#classadv{
-    font-weight: bold;
- }
+#info{
+    box-shadow: 2px 2px 4px 0px black;
+    border-radius: 4px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 
 
- footer{
-    height: 20vh;
-    width: 100%;
- }
+#results td, #results th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #results tr:nth-child(odd){
+    background-color: #f2f2f2;
+}
+  
+  #results tr:hover {
+    background-color: #ddd;
+}
+  
+  #results th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:rgba(0, 60, 255, 0.747);
+    color: white;
+  }

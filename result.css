@@ -59,3 +59,7 @@ header .container{
     background-color:rgba(0, 60, 255, 0.747);
     color: white;
   }
+
+  body{
+    padding-top: 20px;
+  }
